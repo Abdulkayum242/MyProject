@@ -17,14 +17,14 @@ import random
 ############################################################
 #Reading probability files for Uni-gram, Bi-gram & Tri-gram
 ############################################################
-with open('./data/ngrams/uni_dict_prob.json', 'r') as fp:
+with open('uni_dict_prob.json', 'r') as fp:
     uni_dict=orjson.loads( fp.read())
     
-#with open('./data/ngrams/bi_dict_prob.json', 'r') as fp:
-#    bi_dict=orjson.loads( fp.read())
+with open('bi_dict_prob.json', 'r') as fp:
+    bi_dict=orjson.loads( fp.read())
     
-#with open('./data/ngrams/tri_dict_prob.json', 'r') as fp:
- #   tri_dict=orjson.loads( fp.read())
+with open('./data/ngrams/tri_dict_prob.json', 'r') as fp:
+    tri_dict=orjson.loads( fp.read())
 
 ############################################################
 #Text cleaning
