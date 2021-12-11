@@ -11,6 +11,7 @@ import re
 from nltk.tokenize import word_tokenize
 from collections import Counter
 import time
+pip install --upgrade orjson
 import orjson
 import random
 
